@@ -4,7 +4,6 @@ from openpyxl import load_workbook
 s = input('Enter number of column with emails to extract [1]: ')
 colum = 1 if s == '' else int(s)
 
-# open workbook from file
 wb = load_workbook('ss.xlsx')
 # grab the active worksheet
 ws = wb.active
